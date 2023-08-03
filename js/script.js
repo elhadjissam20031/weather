@@ -132,7 +132,7 @@ searchLocation.addEventListener("click", async function getWeather() {
   getAfterTomorrow();
 });
 
-window.addEventListener("load", function tst() {
+function tst() {
   ///get  location for user
   const successCallback = async (position) => {
     let x = position.coords.latitude;
@@ -253,5 +253,6 @@ window.addEventListener("load", function tst() {
 
   navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
   ///////////////////////////////////////
-});
+};
+tst();
 ///////////////////
