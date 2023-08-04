@@ -131,5 +131,3 @@ searchLocation.addEventListener("click", async function getWeather() {
   }
   getAfterTomorrow();
 });
-
-
